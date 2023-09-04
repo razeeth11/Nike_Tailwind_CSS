@@ -31,14 +31,14 @@ export default function App() {
         </div>
       </nav>
       <main>
-        <div className="flex items-center px-5">
-          <div className="marketing-line">
+        <div className="flex items-center justify-between px-4">
+          <div className="marketing-line max-w-[500px] ps-5">
           <h1 className="text-[48px] font-bold">Groceries <br/> Delivery in <span className="text-yellow-400">15mins</span></h1>
           <p className="text-[14px] mt-5 leading-[30px]">Grocify offer a wide range of products, including fresh products, meats, dairy, baked goods and non-perishable items.</p>
           <button className="mt-10 px-5 py-3 bg-yellow-400 text-blue-950 rounded font-medium">Shop Now</button>
           </div>
           <div className="marketing-image">
-            <img src="src\assets\images\grocery-image.png" alt="marketing-image.png" width='700px'/>
+            <img src="src\assets\images\grocery-image.png" alt="marketing-image.png" width='650px'/>
           </div>
         </div>
       </main>
