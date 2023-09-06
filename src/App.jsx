@@ -35,7 +35,8 @@ export default function App() {
           <div className="marketing-line max-w-[500px] ps-5">
           <h1 className="text-[48px] font-bold">Groceries <br/> Delivery in <span className="text-yellow-400">15mins</span></h1>
           <p className="text-[14px] mt-5 leading-[30px]">Grocify offer a wide range of products, including fresh products, meats, dairy, baked goods and non-perishable items.</p>
-          <button className="mt-10 px-5 py-3 bg-yellow-400 text-blue-950 rounded font-medium">Shop Now</button>
+          <button className="mt-10 px-5 py-3 bg-yellow-400 text-blue-950 rounded-full font-medium">Order Now</button>
+          <button className="mt-10 ms-5 px-5 py-3 border-[1px] border-white rounded-full font-medium">Download App</button>
           </div>
           <div className="marketing-image">
             <img src="src\assets\images\grocery-image.png" alt="marketing-image.png" width='650px'/>
